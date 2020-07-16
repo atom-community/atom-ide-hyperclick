@@ -10,12 +10,17 @@ Hyperclick is triggered by two events:
 
 ## Known Providers
 
-Check out the wiki: https://github.com/facebooknuclide/hyperclick/wiki/Known-Providers
+Here are some existing providers for the Hyperclick package:
+
+- [js-hyperclick](https://atom.io/packages/js-hyperclick) Jump to variable definitions, including when imported/required from another file
+- [hyperclick-php](https://atom.io/packages/hyperclick-php) Locate php classes with the help of composer, and open the file
+- [go-plus](https://atom.io/packages/go-plus) Jump to definition for [go](https://golang.org/)
+- [hyperlink-hyperclick](https://atom.io/packages/hyperlink-hyperclick) Open URLs in your default browser
+- [flow-ide](https://atom.io/packages/flow-ide) Similar to js-hyperclick. Jump to variable declarations
+- [autocomplete-racer](https://atom.io/packages/autocomplete-racer) Jump to variable, function and module declarations in Rust
+- [css-hyperclick](https://atom.io/packages/css-hyperclick) Jump to @import for CSS
 
 ## Demo
-
-Install `hyperclick` with this [demo package](https://github.com/oclbdk/hyperclick-provider-demo)
-to recreate the screencast below.
 
 ![hyperclick-demo](https://thumbs.gfycat.com/EcstaticEvilEstuarinecrocodile-size_restricted.gif)
 
