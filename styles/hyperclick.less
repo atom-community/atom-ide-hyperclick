@@ -1,40 +1,40 @@
 @import "syntax-variables";
 
-atom-text-editor .highlight.hyperclick > .region {
+atom-text-editor .highlight.atom-ide-hyperclick > .region {
   border-bottom: 1px solid @syntax-text-color;
   /* Avoid being obscured by the datatip highlight */
   z-index: 1;
 }
 
-atom-text-editor:not([mini]).hyperclick .lines {
+atom-text-editor:not([mini]).atom-ide-hyperclick .lines {
   /**
-   * Unfortunately, this cannot be a property of `.hyperclick .region`:
+   * Unfortunately, this cannot be a property of `.atom-ide-hyperclick .region`:
    * https://discuss.atom.io/t/some-css-styles-not-honored-by-decorations/11662
    */
   cursor: pointer;
 }
 
-atom-text-editor:not([mini]).hyperclick-loading .lines {
+atom-text-editor:not([mini]).atom-ide-hyperclick-loading .lines {
   cursor: wait;
 }
 
-hyperclick-suggestion-list {
+atom-ide-hyperclick-suggestion-list {
   cursor: default;
 }
 
-.hyperclick-suggestion-list-scroller.popover-list.select-list {
+.atom-ide-hyperclick-suggestion-list-scroller.popover-list.select-list {
   overflow-y: auto;
   width: inherit;
   max-width: 500px;
 }
 
-.hyperclick-result-item {
+.atom-ide-hyperclick-result-item {
   cursor: pointer;
 }
 
-@font-size-small: .9em;
-@item-padding: .75em;
-@item-side-padding: .6em;
+@font-size-small: 0.9em;
+@item-padding: 0.75em;
+@item-side-padding: 0.6em;
 
 hyperclick-suggestion-list {
   .right-label {

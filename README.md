@@ -3,6 +3,7 @@
 Pluggable text-clicking UI for [Atom](https://atom.io/).
 
 Hyperclick is triggered by two events:
+
 - `<cmd>` or `<cmd-mousemove>` underlines clickable text under the mouse.
 - `<cmd-mousedown>` performs the action associated with the clickable text.
 - `<cmd-alt-enter>` performs the action on the text under the cursor.
@@ -92,9 +93,9 @@ The methods return a suggestion or a `Promise` that resolves to a suggestion:
 
   If there are multiple possibilities, this can be an array of objects with:
 
-    - `title`: A string to present in the UI for the user to select.
-    - `rightLabel`(optional): An indicator denoting the "kind" of suggestion this represents
-    - `callback`: The function to call when the user selects this object.
+  - `title`: A string to present in the UI for the user to select.
+  - `rightLabel`(optional): An indicator denoting the "kind" of suggestion this represents
+  - `callback`: The function to call when the user selects this object.
 
 Additional provider fields:
 
