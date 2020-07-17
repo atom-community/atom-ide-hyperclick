@@ -1,9 +1,9 @@
 module.exports = {
-	activate() {},
+  activate() {},
 
-	getLegacyProvider() {},
+  getLegacyProvider() {},
 
-	getProvider() {},
+  getProvider() {},
 
-	observeTextEditor() {},
+  observeTextEditor() {},
 };
