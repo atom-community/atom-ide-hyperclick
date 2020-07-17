@@ -27,15 +27,14 @@
   },
   "scripts": {
     "format": "prettier --write .",
-    "lint": "eslint . --ext js,json",
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix",
     "test": "atom --test spec"
   },
   "devDependencies": {
     "atom-jasmine3-test-runner": "^4.4.8",
     "eslint": "^7.4.0",
-    "eslint-plugin-json": "^2.1.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-config-atomic": "^0.1.0",
     "prettier": "^2.0.5"
   },
   "dependencies": {
