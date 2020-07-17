@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.0...v1.0.1) (2020-07-17)
+
+
+### Bug Fixes
+
+* update rxjs ([c6e2191](https://github.com/atom-ide-community/atom-ide-hyperclick/commit/c6e2191a9785c4ef67e9023d58bccd6d2fb1aa11))
+
 # 1.0.0 (2020-07-17)
 
 
