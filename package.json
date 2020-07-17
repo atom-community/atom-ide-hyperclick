@@ -35,7 +35,8 @@
     "atom-jasmine3-test-runner": "^4.4.8",
     "eslint": "^7.4.0",
     "eslint-config-atomic": "^0.1.0",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
   },
   "dependencies": {
     "log4js": "^6.3.0",
