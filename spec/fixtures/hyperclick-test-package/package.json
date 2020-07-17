@@ -1,0 +1,24 @@
+{
+  "name": "hyperclick-test-package",
+  "main": "./index.js",
+  "version": "0.0.0",
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getLegacyProvider"
+      }
+    },
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "getProvider"
+      }
+    }
+  },
+  "consumedServices": {
+    "hyperclick.observeTextEditor": {
+      "versions": {
+        "0.0.0": "observeTextEditor"
+      }
+    }
+  }
+}

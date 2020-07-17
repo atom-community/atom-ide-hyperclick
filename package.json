@@ -6,6 +6,9 @@
   "description": "Hyperclick UI",
   "author": "Tony Brix <tony@brix.ninja>",
   "atomTestRunner": "./spec/runner",
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
   "consumedServices": {
     "hyperclick.provider": {
       "versions": {
