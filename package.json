@@ -36,13 +36,13 @@
     "bump": "ncu -u"
   },
   "devDependencies": {
-    "@types/atom": "1.40.4",
+    "@types/atom": "^1.40.4",
     "@types/node": "^14.0.23",
     "atom-jasmine3-test-runner": "^4.4.8",
     "eslint": "^7.4.0",
     "eslint-config-atomic": "^1.0.0",
     "eslint-plugin-react": "^7.20.3",
-    "npm-check-updates": "7.0.2",
+    "npm-check-updates": "^7.0.2",
     "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   },
@@ -50,7 +50,7 @@
     "log4js": "^6.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "rxjs": "5.5.5"
+    "rxjs": "^6.6.0"
   },
   "package-deps": []
 }
