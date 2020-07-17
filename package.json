@@ -32,6 +32,8 @@
     "test": "atom --test spec"
   },
   "devDependencies": {
+    "@types/atom": "1.40.4",
+    "@types/node": "^14.0.23",
     "atom-jasmine3-test-runner": "^4.4.8",
     "eslint": "^7.4.0",
     "eslint-config-atomic": "^0.1.0",
