@@ -49,7 +49,7 @@ Define the provider callback in `lib/main.js`.
 export function getProvider() {
   return {
     priority: 1,
-    grammarScopes: ['source.js'], // JavaScript files
+    grammarScopes: ["source.js"], // JavaScript files
     getSuggestionForWord(
       textEditor: TextEditor,
       text: string,

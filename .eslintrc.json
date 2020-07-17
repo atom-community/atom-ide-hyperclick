@@ -1,7 +1,4 @@
 {
-  "extends": [
-    "eslint-config-atomic",
-    "plugin:react/recommended"
-  ],
+  "extends": ["eslint-config-atomic", "plugin:react/recommended"],
   "ignorePatterns": ["dist/", "node_modules/"]
 }
