@@ -22,6 +22,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 This repository might include code from the following projects, which have their own licenses:
 
 - [atom-ide-ui](https://github.com/facebookarchive/atom-ide-ui/blob/master/LICENSE):
+
   > BSD License
   >
   > For atom-ide-ui software
@@ -53,7 +54,8 @@ This repository might include code from the following projects, which have their
   > (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
   > SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  > -----------------------------
+  > ***
+  >
   > Additional Grant of Patent Rights Version 2
 
   > "Software" means the atom-ide-ui software contributed by Facebook, Inc.
