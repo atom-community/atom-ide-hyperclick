@@ -41,9 +41,10 @@
     "atom-jasmine3-test-runner": "^4.4.8",
     "eslint": "^7.4.0",
     "eslint-config-atomic": "^1.0.0",
+    "eslint-plugin-react": "^7.20.3",
+    "npm-check-updates": "7.0.2",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.7",
-    "npm-check-updates": "7.0.2"
+    "typescript": "^3.9.7"
   },
   "dependencies": {
     "log4js": "^6.3.0",
