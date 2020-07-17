@@ -3,6 +3,7 @@ const path = require("path");
 const hyperclick = require("../lib/main");
 const testPackagePath = fixturePath("hyperclick-test-package");
 const testPackage = require(testPackagePath);
+const triggerKey = process.platform === "darwin" ? "metaKey" : "ctrlKey";
 
 function fixturePath(filePath = "") {
   return path.resolve(__dirname, "./fixtures", filePath);
@@ -96,7 +97,7 @@ describe("main.js", () => {
     expect(getSuggestionForWord).not.toHaveBeenCalled();
 
     keyEvent(editor, "keydown", {
-      ctrlKey: true,
+      [triggerKey]: true,
     });
 
     // have to wait until next tick to click on suggestion
@@ -105,7 +106,7 @@ describe("main.js", () => {
     mouseEvent(editor, "mousedown", {
       clientX: 10,
       clientY: 10,
-      ctrlKey: true,
+      [triggerKey]: true,
     });
 
     expect(getSuggestionForWord).toHaveBeenCalledTimes(1);
@@ -139,7 +140,7 @@ describe("main.js", () => {
     expect(getSuggestionForWord).not.toHaveBeenCalled();
 
     keyEvent(editor, "keydown", {
-      ctrlKey: true,
+      [triggerKey]: true,
     });
 
     expect(getSuggestionForWord).toHaveBeenCalledTimes(1);
@@ -155,7 +156,7 @@ describe("main.js", () => {
     mouseEvent(editor, "mousedown", {
       clientX: 10,
       clientY: 10,
-      ctrlKey: true,
+      [triggerKey]: true,
     });
     expect(callback).toHaveBeenCalledTimes(1);
   });
@@ -181,7 +182,7 @@ describe("main.js", () => {
     expect(getSuggestion).not.toHaveBeenCalled();
 
     keyEvent(editor, "keydown", {
-      ctrlKey: true,
+      [triggerKey]: true,
     });
 
     expect(getSuggestion).toHaveBeenCalledTimes(1);
@@ -193,7 +194,7 @@ describe("main.js", () => {
     mouseEvent(editor, "mousedown", {
       clientX: 10,
       clientY: 10,
-      ctrlKey: true,
+      [triggerKey]: true,
     });
     expect(callback).toHaveBeenCalledTimes(1);
   });
@@ -219,7 +220,7 @@ describe("main.js", () => {
     expect(getSuggestion).not.toHaveBeenCalled();
 
     keyEvent(editor, "keydown", {
-      ctrlKey: true,
+      [triggerKey]: true,
     });
 
     expect(getSuggestion).toHaveBeenCalledTimes(1);
@@ -231,7 +232,7 @@ describe("main.js", () => {
     mouseEvent(editor, "mousedown", {
       clientX: 10,
       clientY: 10,
-      ctrlKey: true,
+      [triggerKey]: true,
     });
 
     expect(callback).toHaveBeenCalledTimes(1);
