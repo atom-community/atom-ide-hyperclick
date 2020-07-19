@@ -1,4 +1,4 @@
 {
-  "extends": ["eslint-config-atomic/strict", "plugin:react/recommended"],
+  "extends": ["eslint-config-atomic/strict-react"],
   "ignorePatterns": ["dist/", "node_modules/"]
 }
