@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.2...v1.0.3) (2020-07-20)
+
+
+### Bug Fixes
+
+* use rxop ([5b81a30](https://github.com/atom-ide-community/atom-ide-hyperclick/commit/5b81a305d3e4f68bab786b8a095fbcbad33707cd))
+
 ## [1.0.2](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.1...v1.0.2) (2020-07-17)
 
 
