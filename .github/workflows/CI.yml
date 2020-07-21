@@ -73,6 +73,26 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ATOM_ACCESS_TOKEN: ${{ secrets.ATOM_ACCESS_TOKEN  }}
 
+  # Automerge:
+  #   needs: [Test, Coverage, Lint]
+  #   runs-on: ubuntu-latest
+  #   if: |
+  #     github.actor == 'dependabot[bot]' &&
+  #     github.event_name == 'pull_request' &&
+  #     startsWith(github.event.pull_request.title, 'chore(deps-dev):')
+  #   steps:
+  #     - name: '@dependabot merge'
+  #       uses: actions/github-script@v2
+  #       with:
+  #         github-token: ${{secrets.GH_TOKEN}}
+  #         script: |
+  #           await github.issues.createComment({
+  #             owner: context.payload.repository.owner.login,
+  #             repo: context.payload.repository.name,
+  #             issue_number: context.payload.pull_request.number,
+  #             body: '@dependabot merge'
+  #           })
+
   Skip:
     if: contains(github.event.head_commit.message, '[skip ci]')
     runs-on: ubuntu-latest
