@@ -1,4 +1,4 @@
-const { createRunner } = require("atom-jasmine3-test-runner");
+const { createRunner } = require("atom-jasmine3-test-runner")
 
 // https://github.com/UziTech/atom-jasmine3-test-runner#api
 module.exports = createRunner({
@@ -6,4 +6,4 @@ module.exports = createRunner({
     attachToDom: true,
     profile: true,
   },
-});
+})
