@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.3...v1.0.4) (2020-08-08)
+
+
+### Bug Fixes
+
+* fix false suggestion stopping providers ([54a512d](https://github.com/atom-ide-community/atom-ide-hyperclick/commit/54a512d8ab1209270af5c1b31a717ea4292cd6b7))
+
 ## [1.0.3](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.2...v1.0.3) (2020-07-20)
 
 
