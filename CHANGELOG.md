@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.4...v1.0.5) (2020-10-05)
+
+
+### Bug Fixes
+
+* Use atom-ide-base for common utilities ([#55](https://github.com/atom-ide-community/atom-ide-hyperclick/issues/55)) ([9379c98](https://github.com/atom-ide-community/atom-ide-hyperclick/commit/9379c98b8d1565efd09e6a00a8869e6817b331b7))
+
 ## [1.0.4](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.3...v1.0.4) (2020-08-08)
 
 
