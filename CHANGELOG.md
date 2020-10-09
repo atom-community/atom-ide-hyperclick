@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.6...v1.0.7) (2020-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump atom-ide-base from 1.10.0 to 1.11.2 ([#58](https://github.com/atom-ide-community/atom-ide-hyperclick/issues/58)) ([c52e001](https://github.com/atom-ide-community/atom-ide-hyperclick/commit/c52e00194e6c3d09332b936145f67e58e7f45af6))
+
 ## [1.0.6](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.5...v1.0.6) (2020-10-06)
 
 
