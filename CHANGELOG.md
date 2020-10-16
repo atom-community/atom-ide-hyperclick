@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.7...v1.0.8) (2020-10-16)
+
+
+### Bug Fixes
+
+* **deps:** bump react-dom from 16.13.1 to 16.14.0 ([#66](https://github.com/atom-ide-community/atom-ide-hyperclick/issues/66)) ([dde2ac7](https://github.com/atom-ide-community/atom-ide-hyperclick/commit/dde2ac7b0456339c3b7d15203edd0cdce85c90d1))
+
 ## [1.0.7](https://github.com/atom-ide-community/atom-ide-hyperclick/compare/v1.0.6...v1.0.7) (2020-10-09)
 
 
