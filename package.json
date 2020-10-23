@@ -47,8 +47,8 @@
   "dependencies": {
     "atom-ide-base": "^2.1.1",
     "prop-types": "^15.7.2",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rxjs": "^6.6.3"
   },
   "package-deps": []
