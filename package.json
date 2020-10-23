@@ -2,7 +2,7 @@
   "name": "atom-ide-hyperclick",
   "repository": "https://github.com/atom-ide-community/atom-ide-hyperclick",
   "main": "./lib/main.js",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Hyperclick UI",
   "author": "Tony Brix <tony@brix.ninja>",
   "atomTestRunner": "./spec/runner",
