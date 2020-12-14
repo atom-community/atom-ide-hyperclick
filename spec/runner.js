@@ -5,5 +5,6 @@ module.exports = createRunner({
   specHelper: {
     attachToDom: true,
     profile: true,
+    ci: true,
   },
 })
