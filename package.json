@@ -36,7 +36,7 @@
     "bump": "ncu -u"
   },
   "devDependencies": {
-    "@types/atom": "^1.40.6",
+    "@types/atom": "^1.40.7",
     "@types/node": "^14.14.22",
     "atom-jasmine3-test-runner": "^5.1.8",
     "eslint": "^7.18.0",
