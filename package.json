@@ -40,7 +40,7 @@
     "@types/node": "^14.14.22",
     "atom-jasmine3-test-runner": "^5.1.8",
     "eslint": "^7.18.0",
-    "eslint-config-atomic": "^1.5.1",
+    "eslint-config-atomic": "^1.6.1",
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   },
