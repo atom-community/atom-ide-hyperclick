@@ -30,8 +30,9 @@
   },
   "scripts": {
     "format": "prettier --write .",
-    "lint": "eslint .",
-    "lintfix": "eslint . --fix",
+    "test.format": "prettier . --check",
+    "lint": "eslint . --fix",
+    "test.lint": "eslint .",
     "test": "atom --test spec",
     "bump": "ncu -u"
   },
