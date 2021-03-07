@@ -3,7 +3,7 @@ const Hyperclick = require("../lib/Hyperclick")
 
 describe("Hyperclick.js", () => {
   let hyperclick
-  beforeEach(async () => {
+  beforeEach(() => {
     hyperclick = new Hyperclick()
   })
 

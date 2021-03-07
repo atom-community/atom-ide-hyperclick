@@ -31,7 +31,7 @@ function keyEvent(editor, type, options) {
 }
 
 describe("main.js", () => {
-  beforeEach(async () => {
+  beforeEach(() => {
     jasmine.attachToDOM(atom.views.getView(atom.workspace))
     // Trigger deferred activation
     atom.packages.triggerDeferredActivationHooks()
@@ -39,7 +39,7 @@ describe("main.js", () => {
     atom.packages.triggerActivationHook("core:loaded-shell-environment")
   })
 
-  it("activate", async function () {
+  it("activate", async () => {
     await atom.packages.activatePackage("atom-ide-hyperclick")
     expect(atom.packages.isPackageLoaded("atom-ide-hyperclick")).toBeTruthy()
   })
