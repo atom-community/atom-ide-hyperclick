@@ -7,11 +7,11 @@ dependencies:
 devDependencies:
   '@types/atom': 1.40.7
   '@types/node': 14.14.31
-  atom-jasmine3-test-runner: 5.1.8
+  atom-jasmine3-test-runner: 5.1.9
   eslint: 7.21.0
-  eslint-config-atomic: 1.11.0_eslint@7.21.0
+  eslint-config-atomic: 1.12.2_eslint@7.21.0
   prettier: 2.2.1
-  typescript: 4.2.2
+  typescript: 4.2.3
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.11:
@@ -272,10 +272,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
-  /@typescript-eslint/eslint-plugin/4.15.2_dcfd9166014d27a95aa168c9277ee0c5:
+  /@typescript-eslint/eslint-plugin/4.15.2_d3b87eefb7d169d15fef4b17d3da7458:
     dependencies:
-      '@typescript-eslint/experimental-utils': 4.15.2_eslint@7.21.0+typescript@4.2.2
-      '@typescript-eslint/parser': 4.15.2_eslint@7.21.0+typescript@4.2.2
+      '@typescript-eslint/experimental-utils': 4.15.2_eslint@7.21.0+typescript@4.2.3
+      '@typescript-eslint/parser': 4.15.2_eslint@7.21.0+typescript@4.2.3
       '@typescript-eslint/scope-manager': 4.15.2
       debug: 4.3.1
       eslint: 7.21.0
@@ -283,8 +283,8 @@ packages:
       lodash: 4.17.21
       regexpp: 3.1.0
       semver: 7.3.4
-      tsutils: 3.20.0_typescript@4.2.2
-      typescript: 4.2.2
+      tsutils: 3.20.0_typescript@4.2.3
+      typescript: 4.2.3
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -297,12 +297,12 @@ packages:
         optional: true
     resolution:
       integrity: sha512-uiQQeu9tWl3f1+oK0yoAv9lt/KXO24iafxgQTkIYO/kitruILGx3uH+QtIAHqxFV+yIsdnJH+alel9KuE3J15Q==
-  /@typescript-eslint/experimental-utils/4.15.2_eslint@7.21.0+typescript@4.2.2:
+  /@typescript-eslint/experimental-utils/4.15.2_eslint@7.21.0+typescript@4.2.3:
     dependencies:
       '@types/json-schema': 7.0.7
       '@typescript-eslint/scope-manager': 4.15.2
       '@typescript-eslint/types': 4.15.2
-      '@typescript-eslint/typescript-estree': 4.15.2_typescript@4.2.2
+      '@typescript-eslint/typescript-estree': 4.15.2_typescript@4.2.3
       eslint: 7.21.0
       eslint-scope: 5.1.1
       eslint-utils: 2.1.0
@@ -314,14 +314,14 @@ packages:
       typescript: '*'
     resolution:
       integrity: sha512-Fxoshw8+R5X3/Vmqwsjc8nRO/7iTysRtDqx6rlfLZ7HbT8TZhPeQqbPjTyk2RheH3L8afumecTQnUc9EeXxohQ==
-  /@typescript-eslint/parser/4.15.2_eslint@7.21.0+typescript@4.2.2:
+  /@typescript-eslint/parser/4.15.2_eslint@7.21.0+typescript@4.2.3:
     dependencies:
       '@typescript-eslint/scope-manager': 4.15.2
       '@typescript-eslint/types': 4.15.2
-      '@typescript-eslint/typescript-estree': 4.15.2_typescript@4.2.2
+      '@typescript-eslint/typescript-estree': 4.15.2_typescript@4.2.3
       debug: 4.3.1
       eslint: 7.21.0
-      typescript: 4.2.2
+      typescript: 4.2.3
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -348,7 +348,7 @@ packages:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
     resolution:
       integrity: sha512-r7lW7HFkAarfUylJ2tKndyO9njwSyoy6cpfDKWPX6/ctZA+QyaYscAHXVAfJqtnY6aaTwDYrOhp+ginlbc7HfQ==
-  /@typescript-eslint/typescript-estree/4.15.2_typescript@4.2.2:
+  /@typescript-eslint/typescript-estree/4.15.2_typescript@4.2.3:
     dependencies:
       '@typescript-eslint/types': 4.15.2
       '@typescript-eslint/visitor-keys': 4.15.2
@@ -356,8 +356,8 @@ packages:
       globby: 11.0.2
       is-glob: 4.0.1
       semver: 7.3.4
-      tsutils: 3.20.0_typescript@4.2.2
-      typescript: 4.2.2
+      tsutils: 3.20.0_typescript@4.2.3
+      typescript: 4.2.3
     dev: true
     engines:
       node: ^10.12.0 || >=12.0.0
@@ -543,7 +543,7 @@ packages:
       atom: '>=1.0.0 <2.0.0'
     resolution:
       integrity: sha512-j7S7QS/G1Fgnl+wDU/ssfp5MxFE9YAcwpZCCmMUbLpOANEJ0+46aTOdHY2HJt5+F76/zGQCv7JwO3Ef1QEQUDA==
-  /atom-jasmine3-test-runner/5.1.8:
+  /atom-jasmine3-test-runner/5.1.9:
     dependencies:
       etch: 0.14.1
       find-parent-dir: 0.3.0
@@ -555,16 +555,15 @@ packages:
       jasmine-pass: 1.1.0_jasmine@3.6.4
       jasmine-should-fail: 1.1.7_jasmine@3.6.4
       jasmine-unspy: 1.1.1_jasmine@3.6.4
-      jasmine2-atom-matchers: 1.1.7_jasmine@3.6.4
+      jasmine2-atom-matchers: 1.1.8_jasmine@3.6.4
       jasmine2-focused: 1.1.1_jasmine@3.6.4
       jasmine2-json: 1.1.1_jasmine@3.6.4
       jasmine2-tagged: 1.1.1_jasmine@3.6.4
-      semver: 7.3.4
       temp: 0.9.4
       underscore-plus: 1.7.0
     dev: true
     resolution:
-      integrity: sha512-TOc/JgA0EmyQ6lc1RjK1Tsv1/tNvUJiH0GqK/zbKUTRER38rhsEv6WGMsF6pq9AOgX4KVjrUeuAgMFlz+FbLBQ==
+      integrity: sha512-raKweLM8ZCsQtUY/5gFXDtKOUUYxdf0yzw4rblujZvGni0Pp534bEk1YnIODADvA8ruIaNyROsr/sLprFsqoNA==
   /atom-package-deps/7.2.2:
     dev: false
     hasBin: true
@@ -1071,11 +1070,11 @@ packages:
       eslint-plugin-react-hooks: ^4 || ^3 || ^2.3.0 || ^1.7.0
     resolution:
       integrity: sha512-glZNDEZ36VdlZWoxn/bUR1r/sdFKPd1mHPbqUtkctgNG4yT2DLLtJ3D+yCV+jzZCc2V1nBVkmdknOJBZ5Hc0fg==
-  /eslint-config-atomic/1.11.0_eslint@7.21.0:
+  /eslint-config-atomic/1.12.2_eslint@7.21.0:
     dependencies:
       '@babel/core': 7.13.8
-      '@typescript-eslint/eslint-plugin': 4.15.2_dcfd9166014d27a95aa168c9277ee0c5
-      '@typescript-eslint/parser': 4.15.2_eslint@7.21.0+typescript@4.2.2
+      '@typescript-eslint/eslint-plugin': 4.15.2_d3b87eefb7d169d15fef4b17d3da7458
+      '@typescript-eslint/parser': 4.15.2_eslint@7.21.0+typescript@4.2.3
       babel-eslint: 10.1.0_eslint@7.21.0
       coffeescript: 1.12.7
       eslint: 7.21.0
@@ -1089,12 +1088,12 @@ packages:
       eslint-plugin-react: 7.22.0_eslint@7.21.0
       eslint-plugin-yaml: 0.3.0
       prettier: 2.2.1
-      typescript: 4.2.2
+      typescript: 4.2.3
     dev: true
     peerDependencies:
       eslint: '>=7'
     resolution:
-      integrity: sha512-xufzYMBouOuCCvv0aZoL0KQikCEZl8u1rkQ1JkPmFq1VVwD7aTfPoliASNQ4FvyQNyaZH6O7qDEdGsQv0z00kw==
+      integrity: sha512-3RxvRCSWTV8B3iINXGCPiZh8m63YyaWrIbBMSoRMkqdE1eTnUD8Zy1miP44ypadldisqgk7ezWuUywjYqxpIJA==
   /eslint-config-prettier/8.1.0_eslint@7.21.0:
     dependencies:
       eslint: 7.21.0
@@ -1840,16 +1839,16 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-hIeOou6y0BgCOKYgXYveQvlY+PTHgDPajFf+vLCYbMTQ+VjAP9+EQv0nuC9+gyCAAWISRFauB1XUb9kFuOKtcQ==
-  /jasmine2-atom-matchers/1.1.7_jasmine@3.6.4:
+  /jasmine2-atom-matchers/1.1.8_jasmine@3.6.4:
     dependencies:
       jasmine: 3.6.4
-      jquery: 3.5.1
+      jquery: 3.6.0
       underscore-plus: 1.7.0
     dev: true
     peerDependencies:
       jasmine: '>=2 <4'
     resolution:
-      integrity: sha512-9xJALLB9suLGxSkN063Wf0aJGTwrTgmbjgX+dr4gqBKqh5CWkdyB4pyET8rJkX2UYAQJuw0tKCgbwccNJ0CuHA==
+      integrity: sha512-dcR7vmEhK79P8PRM5H15DnsiR/QAAEuitK7LBs+9Z2y3RNqZWDS8LE4MiFh05+rHfholS0YltpeWLJheCe4KZw==
   /jasmine2-focused/1.1.1_jasmine@3.6.4:
     dependencies:
       jasmine: 3.6.4
@@ -1874,10 +1873,10 @@ packages:
       jasmine: '>=2 <4'
     resolution:
       integrity: sha512-PK/83f9hBI6R/gGZ8zEYHt4OUtZu3xpcoUFICMBVsdbbanrhCCNC3EkWldIQgvuSHaUMhVptXAihWjNJI3uiRw==
-  /jquery/3.5.1:
+  /jquery/3.6.0:
     dev: true
     resolution:
-      integrity: sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
+      integrity: sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
   /js-tokens/3.0.2:
     dev: true
     resolution:
@@ -2693,10 +2692,10 @@ packages:
   /tslib/1.14.1:
     resolution:
       integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
-  /tsutils/3.20.0_typescript@4.2.2:
+  /tsutils/3.20.0_typescript@4.2.3:
     dependencies:
       tslib: 1.14.1
-      typescript: 4.2.2
+      typescript: 4.2.3
     dev: true
     engines:
       node: '>= 6'
@@ -2718,13 +2717,13 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
-  /typescript/4.2.2:
+  /typescript/4.2.3:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-tbb+NVrLfnsJy3M59lsDgrzWIflR4d4TIUjz+heUnHZwdF7YsrMTKoRERiIvI2lvBG95dfpLxB21WZhys1bgaQ==
+      integrity: sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
   /underscore-plus/1.7.0:
     dependencies:
       underscore: 1.12.0
@@ -2805,12 +2804,12 @@ specifiers:
   '@types/atom': ^1.40.7
   '@types/node': ^14.14.31
   atom-ide-base: ^2.4.0
-  atom-jasmine3-test-runner: ^5.1.8
+  atom-jasmine3-test-runner: ^5.1.9
   eslint: ^7.21.0
-  eslint-config-atomic: ^1.11.0
+  eslint-config-atomic: ^1.12.2
   prettier: ^2.2.1
   prop-types: ^15.7.2
   react: ^17.0.1
   react-dom: ^17.0.1
   rxjs: ^6.6.6
-  typescript: ^4.2.2
+  typescript: ^4.2.3
