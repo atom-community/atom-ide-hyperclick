@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/atom': ^1.40.10
-  '@types/node': ^15.12.1
+  '@types/node': ^15.12.2
   atom-ide-base: ^2.6.0
   atom-jasmine3-test-runner: ^5.2.6
   eslint: ^7.28.0
@@ -23,7 +23,7 @@ dependencies:
 
 devDependencies:
   '@types/atom': 1.40.10
-  '@types/node': 15.12.1
+  '@types/node': 15.12.2
   atom-jasmine3-test-runner: 5.2.6
   eslint: 7.28.0
   eslint-config-atomic: 1.15.3
@@ -324,8 +324,8 @@ packages:
   /@types/node/14.14.37:
     resolution: {integrity: sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==}
 
-  /@types/node/15.12.1:
-    resolution: {integrity: sha512-zyxJM8I1c9q5sRMtVF+zdd13Jt6RU4r4qfhTd7lQubyThvLfx6yYekWSQjGCGV2Tkecgxnlpl/DNlb6Hg+dmEw==}
+  /@types/node/15.12.2:
+    resolution: {integrity: sha512-zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==}
     dev: true
 
   /@types/prop-types/15.7.3:

@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@types/atom": "^1.40.10",
-    "@types/node": "^15.12.1",
+    "@types/node": "^15.12.2",
     "atom-jasmine3-test-runner": "^5.2.6",
     "eslint": "^7.28.0",
     "eslint-config-atomic": "^1.15.3",
