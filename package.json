@@ -1,6 +1,6 @@
 {
   "name": "atom-ide-hyperclick",
-  "repository": "https://github.com/atom-ide-community/atom-ide-hyperclick",
+  "repository": "https://github.com/atom-community/atom-ide-hyperclick",
   "main": "./lib/main.js",
   "version": "1.0.11",
   "description": "Hyperclick UI",
