@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/atom': ^1.40.10
   '@types/node': ^16.0.0
-  atom-ide-base: ^3.0.0
+  atom-ide-base: ^3.2.0
   atom-jasmine3-test-runner: ^5.2.7
   eslint: ^7.30.0
   eslint-config-atomic: ^1.16.1
@@ -11,15 +11,15 @@ specifiers:
   prop-types: ^15.7.2
   react: ^17.0.2
   react-dom: ^17.0.2
-  rxjs: ^7.1.0
+  rxjs: ^7.2.0
   typescript: ^4.3.5
 
 dependencies:
-  atom-ide-base: 3.0.0
+  atom-ide-base: 3.2.0
   prop-types: 15.7.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  rxjs: 7.1.0
+  rxjs: 7.2.0
 
 devDependencies:
   '@types/atom': 1.40.10
@@ -635,8 +635,8 @@ packages:
     resolution: {integrity: sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=}
     dev: true
 
-  /atom-ide-base/3.0.0:
-    resolution: {integrity: sha512-+/Ed1MIOTqtchiBv5hqZccXhZ/1NduMHfyC3Ii7/o5MrZS4nsGN71bGf1Du+csLT6Upvz/kznkAZPiL09F47hA==}
+  /atom-ide-base/3.2.0:
+    resolution: {integrity: sha512-i6jmkAvSISl+y686jbJNQBRMq+eDsUvzU5JFIyOjComzc0YNBzOs4p3UTdiogVb7K0PFu7m7746NVEmueTs6Dg==}
     engines: {atom: '>=0.174.0 <2.0.0', pnpm: '>=5.12'}
     dependencies:
       '@types/atom': 1.40.10
@@ -2561,8 +2561,8 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /rxjs/7.1.0:
-    resolution: {integrity: sha512-gCFO5iHIbRPwznl6hAYuwNFld8W4S2shtSJIqG27ReWXo9IWrCyEICxUA+6vJHwSR/OakoenC4QsDxq50tzYmw==}
+  /rxjs/7.2.0:
+    resolution: {integrity: sha512-aX8w9OpKrQmiPKfT1bqETtUr9JygIz6GZ+gql8v7CijClsP0laoFUdKzxFAoWuRdSlOdU2+crss+cMf+cqMTnw==}
     dependencies:
       tslib: 2.1.0
     dev: false
