@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/atom': ^1.40.10
-  '@types/node': ^16.0.0
+  '@types/atom': ^1.40.11
+  '@types/node': ^16.3.1
   atom-ide-base: ^3.0.0
   atom-jasmine3-test-runner: ^5.2.7
   eslint: ^7.30.0
@@ -22,8 +22,8 @@ dependencies:
   rxjs: 7.1.0
 
 devDependencies:
-  '@types/atom': 1.40.10
-  '@types/node': 16.0.0
+  '@types/atom': 1.40.11
+  '@types/node': 16.3.1
   atom-jasmine3-test-runner: 5.2.7
   eslint: 7.30.0
   eslint-config-atomic: 1.16.1
@@ -342,6 +342,12 @@ packages:
     dependencies:
       '@types/node': 14.14.37
 
+  /@types/atom/1.40.11:
+    resolution: {integrity: sha512-TsPltugw2wKtR5p6ICv73t9kxdx59fTfdcD8Xe/0EEjF5vHBz99Z7Kj/rPRpyM/4ZcY1GrkQh8hgOw/OJRCs0g==}
+    dependencies:
+      '@types/node': 16.3.1
+    dev: true
+
   /@types/dompurify/2.2.2:
     resolution: {integrity: sha512-8nNWfAa8/oZjH3OLY5Wsxu9ueo0NwVUotIi353g0P2+N5BuTLJyAVOnF4xBUY0NyFUGJHY05o1pO2bqLto+lmA==}
     dependencies:
@@ -368,8 +374,8 @@ packages:
     resolution: {integrity: sha512-zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==}
     dev: false
 
-  /@types/node/16.0.0:
-    resolution: {integrity: sha512-TmCW5HoZ2o2/z2EYi109jLqIaPIi9y/lc2LmDCWzuCi35bcaQ+OtUh6nwBiFK7SOu25FAU5+YKdqFZUwtqGSdg==}
+  /@types/node/16.3.1:
+    resolution: {integrity: sha512-N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==}
     dev: true
 
   /@types/prop-types/15.7.3:
