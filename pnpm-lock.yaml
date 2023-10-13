@@ -5,17 +5,17 @@ importers:
   .:
     specifiers:
       '@types/atom': ^1.40.11
-      '@types/node': ^18.0.0
+      '@types/node': ^20.0.0
       atom-ide-base: ^3.0.0
       atom-jasmine3-test-runner: ^5.2.7
       eslint: ^8.0.0
       eslint-config-atomic: ^1.16.2
-      prettier: ^2.3.2
+      prettier: ^3.0.0
       prop-types: ^15.7.2
       react: ^17.0.2
       react-dom: ^17.0.2
       rxjs: ^7.1.0
-      typescript: ^4.3.5
+      typescript: ^5.0.0
     dependencies:
       atom-ide-base: 3.0.0
       prop-types: 15.7.2
@@ -24,12 +24,12 @@ importers:
       rxjs: 7.1.0
     devDependencies:
       '@types/atom': 1.40.11
-      '@types/node': 18.0.0
+      '@types/node': 20.8.6
       atom-jasmine3-test-runner: 5.2.7
       eslint: 8.17.0
       eslint-config-atomic: 1.16.2
-      prettier: 2.3.2
-      typescript: 4.3.5
+      prettier: 3.0.3
+      typescript: 5.2.2
 
 packages:
 
@@ -371,13 +371,13 @@ packages:
   /@types/atom/1.40.10:
     resolution: {integrity: sha512-aNFUhCuR6nmTTMoYKfWWMifZ3IcNETLWC75hCdg3i1/OvirfR/5qm1wfiISBb4s/TPM2YVEtxytCdWhKJuEhzw==}
     dependencies:
-      '@types/node': 18.0.0
+      '@types/node': 20.8.6
     dev: false
 
   /@types/atom/1.40.11:
     resolution: {integrity: sha512-TsPltugw2wKtR5p6ICv73t9kxdx59fTfdcD8Xe/0EEjF5vHBz99Z7Kj/rPRpyM/4ZcY1GrkQh8hgOw/OJRCs0g==}
     dependencies:
-      '@types/node': 18.0.0
+      '@types/node': 20.8.6
     dev: true
 
   /@types/dompurify/2.2.2:
@@ -404,8 +404,10 @@ packages:
     resolution: {integrity: sha512-zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==}
     dev: false
 
-  /@types/node/18.0.0:
-    resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
+  /@types/node/20.8.6:
+    resolution: {integrity: sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==}
+    dependencies:
+      undici-types: 5.25.3
 
   /@types/prop-types/15.7.3:
     resolution: {integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==}
@@ -2559,6 +2561,12 @@ packages:
     hasBin: true
     dev: true
 
+  /prettier/3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /progress/2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
@@ -2997,6 +3005,12 @@ packages:
     hasBin: true
     dev: true
 
+  /typescript/5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
+
   /unbox-primitive/1.0.1:
     resolution: {integrity: sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw==}
     dependencies:
@@ -3015,6 +3029,9 @@ packages:
   /underscore/1.12.0:
     resolution: {integrity: sha512-21rQzss/XPMjolTiIezSu3JAjgagXKROtNrYFEOWK109qY1Uv2tVjPTZ1ci2HgvQDA16gHYSthQIJfB+XId/rQ==}
     dev: true
+
+  /undici-types/5.25.3:
+    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
 
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
